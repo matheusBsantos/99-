@@ -11,7 +11,7 @@
             session_unset();//remove todas as variáveis de sessão
             echo "<script>
                 alert('Esta página só pode ser acessada por usuário logado');
-                window.location.href = 'exemplo.html';
+                window.location.href = 'pagina_login.php';
                 </script>";
 
         }
@@ -67,7 +67,8 @@
 				</a>
 				<nav class="top-nav-area w-100">
 					<div class="user-panel">
-                                            <a href="logout.php">LOGOUT</a> 
+                                            <a href="pesquise.php">pesquisar PERFIL</a><br>
+                                            <a href="logout.php"><font color="#00ffff">LOGOUT</font></a> 
 						
 					</div>
 					<!-- Menu -->
