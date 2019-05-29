@@ -72,7 +72,8 @@
 				</a>
 				<nav class="top-nav-area w-100">
 					<div class="user-panel">
-                                            <a href="logout.php">LOGOUT</a> 
+                                            <a href="pesquise.php">pesquisar PERFIL</a><br>
+                                            <a href="logout.php"><font color="#00ffff">LOGOUT</font></a>  
 					</div>
 					<!-- Menu -->
 					<ul class="main-menu primary-menu">
@@ -96,10 +97,10 @@
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/4.jpg">
 		<div class="page-info">
-			<h2>Adicionar Evento</h2>
+			<h2>Perfil do usuário</h2>
 			<div class="site-breadcrumb">
 				<a href="index.html">Início</a>  /
-				<span>Adicionar Evento</span>
+				<span>Perfil </span>
 			</div>
 		</div>
 	</section>
@@ -124,7 +125,7 @@
     if ($resultado->num_rows > 0) { 
         while($linha = $resultado->fetch_assoc()) { 
             
-            echo "<center>ID do usuário = " . $linha["id"]."</center><br><center>Nome do usuário= ". $linha["nome"]."<br></center>  <center>email = ". $linha["email"]."<br></center><center> senha = " . $linha["senha"]. "</center><br>"; 
+            echo "<center>Nome do usuário= ". $linha["nome"]."<br></center>  <center>email = ". $linha["email"]."<br></center><center> senha = " . $linha["senha"]. "</center><br>"; 
         }    
     } 
     else { 
@@ -141,10 +142,10 @@
 	<footer class="footer-section">
 		<div class="container">
 			<div class="footer-left-pic">
-				<img src="img/footer-left-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<div class="footer-right-pic">
-				<img src="img/footer-right-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<a href="#" class="footer-logo">
 				<img src="./img/logo.png" alt="">

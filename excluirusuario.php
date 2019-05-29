@@ -73,11 +73,12 @@
 				</a>
 				<nav class="top-nav-area w-100">
 					<div class="user-panel">
-                                            <a href="logout.php">LOGOUT</a> 
+                                            <a href="pesquise.php">pesquisar PERFIL</a><br>
+                                            <a href="logout.php"><font color="#00ffff">LOGOUT</font></a> 
 					</div>
 					<!-- Menu -->
 					<ul class="main-menu primary-menu">
-						<li><a href="index.html">Início</a></li>
+						<li><a href="indexlogado.php">Início</a></li>
 						<li><a href="games.html">eventos</a>
 							<ul class="sub-menu">
 								<li><a href="game-single.html">Game Singel</a></li>
@@ -97,26 +98,26 @@
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/4.jpg">
 		<div class="page-info">
-			<h2>Adicionar Evento</h2>
+			<h2>Excluir usuário</h2>
 			<div class="site-breadcrumb">
 				<a href="index.html">Início</a>  /
-				<span>Adicionar Evento</span>
+				<span>excluir</span>
 			</div>
 		</div>
 	</section>
 <center id="cor_nome"><h2>Excluir Usuário</h2></center><br><br>
             <form action="excluir.php" method="POST">
-                <center><input type="number" placeholder="Qual o id a ser apagado?" required name="id"></center>
+                <center>Qual ID quer excluir?<input type="number" placeholder="Qual o id a ser apagado?" required name="id"></center>
                 <center> <button type="submit" name="enviar">Apague</button></center>
             </form>           
 <!-- parte final-->
 	<footer class="footer-section">
 		<div class="container">
 			<div class="footer-left-pic">
-				<img src="img/footer-left-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<div class="footer-right-pic">
-				<img src="img/footer-right-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<a href="#" class="footer-logo">
 				<img src="./img/logo.png" alt="">

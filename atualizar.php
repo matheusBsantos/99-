@@ -2,7 +2,7 @@
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
-    $id = $_POST['id'];
+    
     //conectando ao Banco de Dados
     $local_servidor = "localhost";
     $nome_usuario = "root";
@@ -13,7 +13,7 @@
         die("Conexão falhou: " . $conecta->connect_error."<br>");
     }
     //enviando dados 
-    $sql = "UPDATE usuarios SET nome='$nome' , email='$email' , senha='$senha' WHERE id='$id'"; 
+    $sql = "UPDATE usuarios SET email='$email' , senha='$senha' WHERE nome='$nome'"; 
     if ($conecta->query($sql) === TRUE) {
         echo  "<script>
                   alert('Usuário atualizado com sucesso');

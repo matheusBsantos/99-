@@ -73,7 +73,8 @@
 				</a>
 				<nav class="top-nav-area w-100">
 					<div class="user-panel">
-                                            <a href="logout.php">LOGOUT</a> 
+                                             <a href="pesquise.php">pesquisar PERFIL</a><br>
+                                            <a href="logout.php"><font color="#00ffff">LOGOUT</font></a>  
 					</div>
 					<!-- Menu -->
 					<ul class="main-menu primary-menu">
@@ -97,20 +98,20 @@
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/4.jpg">
 		<div class="page-info">
-			<h2>Adicionar Evento</h2>
+			<h2>Atualizar dados do usuário</h2>
 			<div class="site-breadcrumb">
 				<a href="index.html">Início</a>  /
-				<span>Adicionar Evento</span>
+				<span>Atualizar dados</span>
 			</div>
 		</div>
 	</section>
 <center id="cor_nome"><h2>Atualizar Perfil</h2></center><br><br>
             <form action="atualizar.php" method="POST">
                <form action="atualizar.php" method="POST">
-               <center>Nome completo:<input type="text" placeholder="Nome Completo" required name="nome"></center><br>
-               <center>email do usuario:<input type="text" placeholder="email do usuário" required name="email"></center><br>
-               <center>senha:<input type="password" placeholder="senha" required name="senha"></center><br>
-               <center>id a ser modificado:<input type="number" placeholder="id a ser modificado" required name="id"></center><br>
+               <center>Nome completo do usuário cadastrado:<center><input type="text" placeholder="Nome Completo" required name="nome"></center><br>
+               <center>Novo email do usuario:<center><input type="text" placeholder="email do usuário" required name="email"></center><br>
+               <center> Nova senha:<center><input type="password" placeholder="senha" required name="senha"></center><br>
+               
                <center> <button type="submit" name="enviar">Atualizar</button></center>
             </form>
 
@@ -119,10 +120,10 @@
 	<footer class="footer-section">
 		<div class="container">
 			<div class="footer-left-pic">
-				<img src="img/footer-left-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<div class="footer-right-pic">
-				<img src="img/footer-right-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<a href="#" class="footer-logo">
 				<img src="./img/logo.png" alt="">

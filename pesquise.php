@@ -106,7 +106,7 @@
 	</section>
 <center id="cor_nome"><h2>Pesquisar Perfil</h2></center><br><br>
 <form action="pesquisar.php" method="POST">
-   <center> Insira o nome do perfil desejado:</center>
+   <center> Insira o nome completo do perfil desejado:</center>
     <center> <input type="text" placeholder="nome" required name="pesquisa"></center>
               <center>  <button type="submit" name="enviar">Pesquise</button></center>
             </form>

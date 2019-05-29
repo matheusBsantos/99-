@@ -73,7 +73,8 @@
 				</a>
 				<nav class="top-nav-area w-100">
 					<div class="user-panel">
-                                            <a href="logout.php">LOGOUT</a> 
+                                             <a href="pesquise.php">pesquisar PERFIL</a><br>
+                                            <a href="logout.php"><font color="#00ffff">LOGOUT</font></a>  
 					</div>
 					<!-- Menu -->
 					<ul class="main-menu primary-menu">
@@ -114,7 +115,7 @@
     //unset($_SESSION['msg']);
 //}
 ?>
-    <form class="form-horizontal" name="form" method="POST" action="validacd.php">
+    <form class="form-horizontal" name="form" method="POST" action="validaevento.php">
 <fieldset >
 
 
@@ -125,6 +126,20 @@
   <label class="col-md-4 control-label" for="textinput" id="cor_nome">Nome do evento</label>  
   <div class="col-md-4">
   <input id="textinput" name="nomeevento" type="text" placeholder="Insira o nome do evento" class="form-control input-md">
+  </div><br>
+    <label class="col-md-4 control-label" for="textinput" id="cor_nome">enredeço do evento</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="endereco" type="text" placeholder="Insira o endereço do evento" class="form-control input-md">
+  </div><br>
+    <label class="col-md-4 control-label" for="textinput" id="cor_nome">Cidade</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="cidade" type="text" placeholder="descrição" class="form-control input-md">
+  </div><br>
+   
+ 
+    <label class="col-md-4 control-label" for="textinput" id="cor_nome">descriçao do evento</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="descricao" type="text" placeholder="Insira a descrição" class="form-control input-md">
     
   </div>
 </div>
