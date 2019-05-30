@@ -63,10 +63,8 @@ session_start();
 					<!-- Menu -->
 					<ul class="main-menu primary-menu">
 						<li><a href="index.html">Início</a></li>
-						<li><a href="games.html">eventos</a>
-							<ul class="sub-menu">
-								<li><a href="game-single.html">Game Singel</a></li>
-							</ul>
+                                                <li><a href="mostraevento.php">eventos</a>
+							
 						</li>
 						<li><a href="review.html">Praticar</a></li>
 						
@@ -147,20 +145,20 @@ session_start();
 	<footer class="footer-section">
 		<div class="container">
 			<div class="footer-left-pic">
-				<img src="img/footer-left-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<div class="footer-right-pic">
-				<img src="img/footer-right-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<a href="#" class="footer-logo">
 				<img src="./img/logo.png" alt="">
 			</a>
 			<ul class="main-menu footer-menu">
-				<li><a href="">Inicío</a></li>
-				<li><a href="">eventos</a></li>
-				<li><a href="">eventos</a></li>
-				<li><a href="">sobre</a></li>
-				<li><a href="">Contato</a></li>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="eventos.html">Eventos</a></li>
+				<li><a href="">Praticar</a></li>
+				<li><a href="contato.html">Contato</a></li>
+				
 			</ul>
 			<div class="footer-social d-flex justify-content-center">
 				<a href="#"><i class="fa fa-pinterest"></i></a>
@@ -169,7 +167,7 @@ session_start();
 				<a href="#"><i class="fa fa-dribbble"></i></a>
 				<a href="#"><i class="fa fa-behance"></i></a>
 			</div>
-			<div class="copyright"><a href="">DDR</a> 2019 @ Todos os direitors reservados</div>
+			<div class="copyright"><a href="">DDR</a> 2019 @ TODOS os direitos reservados</div>
 		</div>
 	</footer>
 	<!-- Footer section end -->

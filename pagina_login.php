@@ -60,11 +60,8 @@
 					<!-- Menu -->
 					<ul class="main-menu primary-menu">
 						<li><a href="index.html">Inicío</a></li>
-						<li><a href="eventos.html">Eventos</a>
-							<ul class="sub-menu">
-								<li><a href="game-single.html">Game Singel</a></li>
-							</ul>
-						</li>
+                                                <li><a href="mostraevento.php">Eventos</a>
+							
 						<li><a href="review.html">Praticar</a></li>
 					
 						<li><a href="contact.html">Contato</a></li>
@@ -114,22 +111,23 @@
 
 </div></div></div>
 	<!-- parte final-->
-	<footer class="footer-section">
+
+		<footer class="footer-section">
 		<div class="container">
 			<div class="footer-left-pic">
-				<img src="img/footer-left-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<div class="footer-right-pic">
-				<img src="img/footer-right-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<a href="#" class="footer-logo">
 				<img src="./img/logo.png" alt="">
 			</a>
 			<ul class="main-menu footer-menu">
 				<li><a href="">Inicío</a></li>
-				<li><a href="">Eventos</a></li>
-				<li><a href="">praticar</a></li>
-				<li><a href="">Sobre</a></li>
+				<li><a href="">eventos</a></li>
+				<li><a href="">eventos</a></li>
+				<li><a href="">sobre</a></li>
 				<li><a href="">Contato</a></li>
 			</ul>
 			<div class="footer-social d-flex justify-content-center">
@@ -139,7 +137,7 @@
 				<a href="#"><i class="fa fa-dribbble"></i></a>
 				<a href="#"><i class="fa fa-behance"></i></a>
 			</div>
-			<div class="copyright"><a href="">DDR</a> 2019 @ Todos os direitos reservados</div>
+			<div class="copyright"><a href="">DDR</a> 2019 @ Todos os direitors reservados</div>
 		</div>
 	</footer>
 	<!-- Footer section end -->
@@ -156,5 +154,3 @@
 
 	</body>
 </html>
-
-

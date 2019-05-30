@@ -78,10 +78,8 @@
 					<!-- Menu -->
 					<ul class="main-menu primary-menu">
 						<li><a href="index.html">Início</a></li>
-						<li><a href="games.html">eventos</a>
-							<ul class="sub-menu">
-								<li><a href="game-single.html">Game Singel</a></li>
-							</ul>
+                                                <li><a href="mostraevento.php">eventos</a>
+							
 						</li>
 						<li><a href="review.html">Praticar</a></li>
 						
@@ -97,27 +95,28 @@
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/4.jpg">
 		<div class="page-info">
-			<h2>Adicionar Evento</h2>
+			<h2>Procurar perfil</h2>
 			<div class="site-breadcrumb">
 				<a href="index.html">Início</a>  /
-				<span>Adicionar Evento</span>
+				<span>procurar perfil</span>
 			</div>
 		</div>
 	</section>
 <center id="cor_nome"><h2>Pesquisar Perfil</h2></center><br><br>
 <form action="pesquisar.php" method="POST">
-   <center> Insira o nome completo do perfil desejado:</center>
-    <center> <input type="text" placeholder="nome" required name="pesquisa"></center>
+    <center> Insira o nome completo do perfil desejado:</center>
+    <center> <input type="text" placeholder="nome" required name="pesquisa"></center><br>
               <center>  <button type="submit" name="enviar">Pesquise</button></center>
             </form>
 <!-- parte final-->
-	<footer class="footer-section">
+	
+		<footer class="footer-section">
 		<div class="container">
 			<div class="footer-left-pic">
-				<img src="img/footer-left-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<div class="footer-right-pic">
-				<img src="img/footer-right-pic.png" alt="">
+				<img src="" alt="">
 			</div>
 			<a href="#" class="footer-logo">
 				<img src="./img/logo.png" alt="">
