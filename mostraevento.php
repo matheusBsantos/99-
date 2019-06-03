@@ -109,7 +109,7 @@
     if ($resultado->num_rows > 0) { 
         while($linha = $resultado->fetch_assoc()) { 
            
-            echo "<center>Nome do Evento= ". $linha["nomeevento"]."<br></center>  <center>Endereço = ". $linha["endereco"]."<br></center> <center>Cidade = ". $linha["cidade"]."<br></center><center> Descrição = " . $linha["descricao"]. "</center><br>." ; 
+            echo "<center>Nome do Evento= ". $linha["nomeevento"]."<br></center>  <center>Endereço = ". $linha["endereco"]."<br></center> <center>Cidade = ". $linha["cidade"]."<br></center><center> Descrição = " . $linha["descricao"]. "</center><br>."; 
         
             
         }   

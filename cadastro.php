@@ -87,8 +87,8 @@ session_start();
 			</div>
 		</div>
 	</section>
-     
-            <center id="cor_nome"><h2>CRIE SEU CADASTRO</h2></center>
+        <footer class="footer-section">    
+<center <h2><font color="ffffff" size="7">CRIE SEU CADASTRO</font></h2></center>
 	</div>
 </div>
 <?php
@@ -104,16 +104,19 @@ session_start();
   
 
 <!-- Text input-->
+<center>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="textinput" id="cor_nome">Nome</label>  
+    <label class="col-md-4 control-label" for="textinput" id="cor_nome"><font color="#ffffff">Nome</label>  
   <div class="col-md-4">
   <input id="textinput" name="nome" type="text" placeholder="Insira seu nome completo" class="form-control input-md">
     
   </div>
 </div>
+</center>
 
 
 <!-- Text input-->
+<center>
 <div class="form-group">
   <label class="col-md-4 control-label"  for="textinput" id="cor_nome">E-mail</label>  
   <div class="col-md-4">
@@ -121,8 +124,10 @@ session_start();
     
   </div>
 </div>
+</center>
 
 <!-- Text input-->
+<center>
 <div class="form-group">
   <label class="col-md-4 control-label" name="senha" for="textinput" id="cor_nome">Senha</label>
   <div class="col-md-4">
@@ -130,14 +135,17 @@ session_start();
     
   </div>
 </div>
+</center>
 
 <!-- Button -->
+<center>
 <div class="form-group">
   <label class="col-md-4 control-label" for="singlebutton"></label>
   <div class="col-md-4">
     <button id="singlebutton" name="salvar"  class="btn btn-primary">Confirmar</button>
   </div>
 </div>
+</center>
 </footer>
 	<!-- Page top end-->
 

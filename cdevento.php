@@ -105,8 +105,8 @@
 			</div>
 		</div>
 	</section>
-     
-            <center id="cor_nome"><h2>CRIE UM EVENTO</h2></center>
+ <footer class="footer-section">    
+     <center> <h2><font color="#ffffff" size="7">CRIE UM EVENTO</font></h2></center></font>
 	</div>
 </div>
 <?php
@@ -123,23 +123,24 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="textinput" id="cor_nome">Nome do evento</label>  
+    <center><label class="col-md-4 control-label"  for="textinput" id="cor_nome"><font color="#ffffff">Nome do evento</label>  
   <div class="col-md-4">
   <input id="textinput" name="nomeevento" type="text" placeholder="Insira o nome do evento" class="form-control input-md">
   </div><br>
-    <label class="col-md-4 control-label" for="textinput" id="cor_nome">enredeço do evento</label>  
+</div>
+<center><label class="col-md-4 control-label" for="textinput" id="cor_nome">Endereço do evento</label>  
   <div class="col-md-4">
   <input id="textinput" name="endereco" type="text" placeholder="Insira o endereço do evento" class="form-control input-md">
   </div><br>
-    <label class="col-md-4 control-label" for="textinput" id="cor_nome">Cidade</label>  
+  <center><label class="col-md-4 control-label" for="textinput" id="cor_nome">Cidade</label>  
   <div class="col-md-4">
-  <input id="textinput" name="cidade" type="text" placeholder="descrição" class="form-control input-md">
+  <input id="textinput" name="cidade" type="textarea" placeholder="descrição" rows="6" cols="50"class="form-control input-md">
   </div><br>
    
  
-    <label class="col-md-4 control-label" for="textinput" id="cor_nome">descriçao do evento</label>  
+    <label class="col-md-4 control-label" for="textinput" id="cor_nome">Descriçao do evento</label>  
   <div class="col-md-4">
-  <input id="textinput" name="descricao" type="text" placeholder="Insira a descrição" class="form-control input-md">
+  <input id="textinput" name="descricao" type="text" size="200" placeholder="Insira a descrição" class="form-control input-md">
     
   </div>
 </div>

@@ -55,7 +55,7 @@
 				</a>
 				<nav class="top-nav-area w-100">
 					<div class="user-panel">
-                                            <a href="pagina_login.php">Login</a> / <a href="cadastro.php">Registrar</a>
+                                            <a href="pagina_login.php">Logar</a> / <a href="cadastro.php">Registrar</a>
 					</div>
 					<!-- Menu -->
 					<ul class="main-menu primary-menu">
@@ -82,34 +82,53 @@
 				<span>logar</span>
 			</div>
 		</div>
-	</section>
-        <h2>Àrea de Login</h2><br>
-   <p>Entre com seu email:</p>
+        </section>
+        <footer class="footer-section"><br>
+            <center> <h2> <font color="ffffff" size="7">Àrea de Login</font></h2></center><br>
+
    </div>
    <form id="Login"  method="POST" action="validalogar.php">
+<center>
+<div class="form-group">
+    <label class="col-md-4 control-label" for="textinput" id="cor_nome"><font color="#ffffff">E-mail:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="email" type="text" placeholder="Insira seu e-mail" class="form-control input-md">
+    
+  </div>
+</div>
+</center>
 
-        <div class="form-group">
+
+<!-- Text input-->
+<center>
+<div class="form-group">
+  <label class="col-md-4 control-label"  for="textinput" id="cor_nome">senha:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="senha" type="text" placeholder="Digite sua senha" class="form-control input-md">
+    
+  </div>
+</div>
+</center>
 
 
-            <input type="email" class="form-control" name="email" placeholder="Email">
+<!-- Button -->
+<center>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="salvar"  class="btn btn-primary">Confirmar</button>
+  </div>
+</div>
+</center>
 
-        </div>
-<p>Entre com sua senha:</p>
-        <div class="form-group">
+       <center>
 
-            <input type="password" class="form-control" name="senha" placeholder="Senha">
-            <br></br
-
-        </div>
-       
-<input type="submit" name="Login" class="btn btn-primary">
-<br>
 
     </form>
     <a href="cadastro.php"> cadastrar agora! </a>
-    </div>
+   </footer>
 
-</div></div></div>
+
 	<!-- parte final-->
 
 		<footer class="footer-section">
